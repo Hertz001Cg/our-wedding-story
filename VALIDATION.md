@@ -9,4 +9,4 @@
 - 测试使用合成数据和受控剪贴板，不是真实新人资料；手机尺寸使用浏览器模拟，未进行实体手机或微信内置浏览器验收。
 - 已发布至 https://hertz001cg.github.io/our-wedding-story/ ，发布源为 `main` 分支的 `/docs`。
 - 已对线上地址运行相同的中文与英文浏览器检查，两组均通过；测试使用独立浏览器环境和合成资料。
-- 已比较线上 `index.html`、`theme.css`、`favicon.svg`、`LICENSE.txt` 与本地文件的 SHA-256，四项全部一致。
+- 已将 Windows CRLF 和网站 LF 换行统一后，比较线上 `index.html`、`theme.css`、`favicon.svg`、`LICENSE.txt` 与本地文件的 SHA-256，四项全部一致。HTML 与授权文件的原始字节差异仅为 Git 的换行规范化。
