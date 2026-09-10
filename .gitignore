@@ -1,0 +1,8 @@
+.work/
+node_modules/
+__pycache__/
+*.pyc
+PROJECT_STATE.json
+orders/
+客户资料/
+outputs/
