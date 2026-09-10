@@ -2,6 +2,14 @@
 
 面向新人的婚礼视频故事采集主页。保留五幕采集结构，支持电脑和手机、中文与英文、本地草稿、填写进度、完整复制和复制失败后的手动备选。
 
+## 本站地址
+
+- 采集主页：https://hertz001cg.github.io/our-wedding-story/
+- 源码仓库：https://github.com/Hertz001Cg/our-wedding-story
+- 发布配置：`main` 分支的 `/docs` 目录。
+
+发送采集链接给新人即可，不需要让新人安装 Codex 或登录 GitHub。
+
 ## 本地预览
 
 在仓库目录执行 `python -X utf8 -m http.server 8734 --bind 127.0.0.1 --directory docs`，打开 http://127.0.0.1:8734/ 。也可以直接打开 `docs/index.html`；HTTP 预览更适合检查浏览器草稿与复制功能。
